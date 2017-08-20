@@ -46,7 +46,7 @@ This will build and deploy the microservice.
 To retrieve an individual product by id:
 
 ```
-curl http://catalog-<project>.<domain>/product/44443
+curl http://catalog-<project>.<domain>/product/444435
 ```
 For example: 
 
@@ -68,7 +68,7 @@ curl http://catalog-<project>.<domain>/products
 For example:
 
 ```
-% curl http://catalog-lab5.apps.127.0.0.1.nip.io/api/catalog
+% curl http://catalog-lab5.apps.127.0.0.1.nip.io/products
 [ {
   "itemId" : "329299",
   "name" : "Red Fedora",
